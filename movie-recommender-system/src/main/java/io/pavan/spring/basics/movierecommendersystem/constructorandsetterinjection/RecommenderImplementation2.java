@@ -7,11 +7,11 @@ import org.springframework.stereotype.Component;
 @Component
 public class RecommenderImplementation2 {
 
-  // Autowiring by name
-  @Autowired
-  @Qualifier("CBF")
   private Filter filter;
 
+  // Autowiring by name
+  @Autowired
+  @Qualifier("contentBasedFilter")
   public void setContentBasedFilter(Filter contentBasedFilter) {
     this.filter = contentBasedFilter;
     System.out.println("Setter method invoked..");

@@ -1,10 +1,8 @@
 package io.pavan.spring.basics.movierecommendersystem.constructorandsetterinjection;
 
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
-@Qualifier("CBF")
 public class ContentBasedFilter implements Filter {
 
   // getRecommendations takes a movie as input and returns a list of similar
