@@ -1,4 +1,4 @@
-package io.pavan.spring.basics.movierecommendersystem.lesson1;
+package io.pavan.spring.basics.movierecommendersystem.tightcoupling;
 
 public class ContentBasedFilter {
   public String[] getRecommendations(String movie) {
