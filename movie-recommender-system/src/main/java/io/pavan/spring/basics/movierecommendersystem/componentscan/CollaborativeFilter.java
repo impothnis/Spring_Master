@@ -1,4 +1,4 @@
-package io.pavan.spring.basics.movierecommendersystem.proxy;
+package io.pavan.spring.basics.movierecommendersystem.componentscan;
 
 import java.util.Set;
 
