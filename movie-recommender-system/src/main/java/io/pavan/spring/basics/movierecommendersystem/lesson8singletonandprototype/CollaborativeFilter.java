@@ -1,4 +1,4 @@
-package io.pavan.spring.basics.movierecommendersystem.singletonandprototype;
+package io.pavan.spring.basics.movierecommendersystem.lesson8singletonandprototype;
 
 import java.util.Set;
 

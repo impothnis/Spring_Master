@@ -1,12 +1,11 @@
-package io.pavan.spring.basics.movierecommendersystem.proxy;
+package io.pavan.spring.basics.movierecommendersystem.lesson9prototypeinjectedintosingleton;
 
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
-import org.springframework.context.annotation.ScopedProxyMode;
 
 @Component
-@Scope(value = ConfigurableBeanFactory.SCOPE_PROTOTYPE, proxyMode = ScopedProxyMode.TARGET_CLASS)
+@Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 public class Movie {
   private static int instances = 0;
 

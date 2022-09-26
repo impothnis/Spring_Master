@@ -1,4 +1,4 @@
-package io.pavan.spring.basics.movierecommendersystem.prototypeinjectedintosingleton;
+package io.pavan.spring.basics.movierecommendersystem.lesson9proxy;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

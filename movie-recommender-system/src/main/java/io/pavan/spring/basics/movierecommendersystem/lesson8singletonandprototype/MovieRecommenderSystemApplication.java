@@ -1,4 +1,4 @@
-package io.pavan.spring.basics.movierecommendersystem.singletonandprototype;
+package io.pavan.spring.basics.movierecommendersystem.lesson8singletonandprototype;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

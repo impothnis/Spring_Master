@@ -1,4 +1,4 @@
-package io.pavan.spring.basics.movierecommendersystem.proxy;
+package io.pavan.spring.basics.movierecommendersystem.lesson9prototypeinjectedintosingleton;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -28,7 +28,8 @@ public class MovieRecommenderSystemApplication {
 		System.out.println(movie3);
 
 		// Print number of instances of each bean
-		System.out.println("\nContentBasedFilter instances created: " + ContentBasedFilter.getInstances());
+		System.out.println("\nContentBasedFilter instances created: " +
+				ContentBasedFilter.getInstances());
 		System.out.println("Movie instances created: " + Movie.getInstances());
 	}
 }

@@ -1,4 +1,4 @@
-package io.pavan.spring.basics.movierecommendersystem.prototypeinjectedintosingleton;
+package io.pavan.spring.basics.movierecommendersystem.lesson9prototypeinjectedintosingleton;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

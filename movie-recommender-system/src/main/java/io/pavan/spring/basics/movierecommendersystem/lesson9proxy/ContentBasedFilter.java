@@ -1,4 +1,4 @@
-package io.pavan.spring.basics.movierecommendersystem.proxy;
+package io.pavan.spring.basics.movierecommendersystem.lesson9proxy;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
