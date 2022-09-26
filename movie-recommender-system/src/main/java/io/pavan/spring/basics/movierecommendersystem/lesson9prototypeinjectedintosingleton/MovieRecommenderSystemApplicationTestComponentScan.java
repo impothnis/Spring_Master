@@ -32,7 +32,7 @@ import org.springframework.context.annotation.FilterType;
 
 // Case 4 - Filter Types
 
-@ComponentScan(basePackages = "io.pavan.spring.basics.movierecommendersystem.componentscan")
+@ComponentScan(basePackages = "io.pavan.spring.basics.movierecommendersystem.lesson10componentscan")
 @ComponentScan(includeFilters = @ComponentScan.Filter(type = FilterType.REGEX, pattern = "io.datajek.spring.basics.movierecommendersystem.lesson9prototypeinjectedintosingleton.*"))
 
 public class MovieRecommenderSystemApplicationTestComponentScan {
